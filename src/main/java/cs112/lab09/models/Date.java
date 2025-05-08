@@ -64,13 +64,13 @@ public class Date
 	 * @String date
 	 */
 	public Date(String dateString) {
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
-
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy"); // <-- slash here!
 		LocalDate date = LocalDate.parse(dateString, formatter);
 		this.day = date.getDayOfMonth();
 		this.month = date.getMonth().toString();
 		this.year = date.getYear();
 	}
+
 
 	/**
 	 * Full constructor sets Date object to parameter values if valid, otherwise

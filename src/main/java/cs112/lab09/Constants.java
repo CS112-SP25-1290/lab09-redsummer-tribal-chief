@@ -9,7 +9,7 @@ public class Constants {
 
     public static final String MAIN_VIEW_RESOURCE = "main-view.fxml";
     public static final String CITY_VIEW_RESOURCE = "city-view.fxml";
-    public static final String MAP_VIEW_RESOURCE = "map-view.fxml";
+    public static final String MAP_VIEW_RESOURCE = "/cs112/lab09/map-view.fxml";
 
     public static final String MAIN_VIEW_TITLE = "Red Summer";
     public static final String MAP_VIEW_TITLE = "Red Summer Map";
